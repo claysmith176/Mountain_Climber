@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="mtnclimber_client_new/app" />
+      <module fileurl="file:///media/disk1/development/mtnclimber_client-20200114T124232Z-001/mtnclimber_client/mtnclimber_client-20200114T124232Z-001-mtnclimber_client.iml" filepath="/media/disk1/development/mtnclimber_client-20200114T124232Z-001/mtnclimber_client/mtnclimber_client-20200114T124232Z-001-mtnclimber_client.iml" group="mtnclimber_client" />
+      <module fileurl="file:///media/disk1/development/mtnclimber_client-20200114T124232Z-001/mtnclimber_client/app/mtnclimber_client-app.iml" filepath="/media/disk1/development/mtnclimber_client-20200114T124232Z-001/mtnclimber_client/app/mtnclimber_client-app.iml" group="mtnclimber_client/app" />
+      <module fileurl="file://$PROJECT_DIR$/mtnclimber_client_new.iml" filepath="$PROJECT_DIR$/mtnclimber_client_new.iml" group="mtnclimber_client_new" />
+    </modules>
+  </component>
+</project>

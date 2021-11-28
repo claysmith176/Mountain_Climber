@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ADK_46">
+        <item>Marcy,1,5344,44.113000,-73.924000</item>
+        <item>Algonquin,2,5114,44.143750,-73.986600</item>
+        <item>Haystack,3,4960,44.106000,-73.901000</item>
+        <item>Skylight,4,4926,44.099000,-73.931000</item>
+        <item>Whiteface,5,4867,44.366000,-73.903000</item>
+        <item>Dix,6,4857,44.082400,-73.786700</item>
+        <item>Gray,7,4840,44.111000,-73.935000</item>
+        <item>Iroquois Peak,8,4840,44.137000,-73.999000</item>
+        <item>Basin,9,4827,44.121000,-73.887000</item>
+        <item>Gothics,10,4736,44.128000,-73.858000</item>
+        <item>Colden,11,4714,44.127000,-73.960000</item>
+        <item>Giant,12,4627,44.161300,-73.720400</item>
+        <item>Nippletop,13,4620,44.089000,-73.816000</item>
+        <item>Santanoni,14,4607,44.082000,-74.131000</item>
+        <item>Redfield,15,4606,44.095000,-73.950000</item>
+        <item>Wright Peak,16,4580,44.152000,-73.981000</item>
+        <item>Saddleback,17,4515,44.126000,-73.875000</item>
+        <item>Panther,18,4442,44.098000,-74.133000</item>
+        <item>TableTop,19,4427,44.140600,-73.916400</item>
+        <item>Rocky Peak,20,4420,44.154400,-73.705500</item>
+        <item>Macomb,21,4405,44.052000,73.781000</item>
+        <item>Armstrong,22,4400,44.134600,-73.849700</item>
+        <item>Hough,23,4400,44.069000,-73.778000</item>
+        <item>Seward,24,4361,44.159800,-74.199300</item>
+        <item>Marshall,25,4360,44.127600,-74.011800</item>
+        <item>Allen,26,4340,44.070900,-73.939900</item>
+        <item>Big Slide,27,4240,44.182300,-73.870400</item>
+        <item>Esther,28,4240,44.387200,-73.889900</item>
+        <item>Upper Wolf Jaw,29,4185,44.140400,-73.845300</item>
+        <item>Lower Wolf Jaw,30,4175,44.148400,-73.832600</item>
+        <item>Street,31,4166,44.179430,-74.026960</item>
+        <item>Phelps,32,4161,44.157000,-73.921000</item>
+        <item>Donaldson,33,4140,44.154000,-74.211600</item>
+        <item>Seymour,34,4120,44.158000,-74.172600</item>
+        <item>Sawteeth,35,4100,44.113900,-73.850400</item>
+        <item>Cascade,36,4098,44.218700,-73.860100</item>
+        <item>South Dix,37,4060,44.060100,-73.774300</item>
+        <item>Porter,38,4059,44.212400,-73.853800</item>
+        <item>Colvin,39,4057,44.093900,-73.834300</item>
+        <item>Emmons,40,4040,44.143800,-74.214300</item>
+        <item>Dial,41,4020,44.105900,-73.796000</item>
+        <item>Grace Peak,42,4012,44.065300,-73.757400</item>
+        <item>Blake Peak,43,3960,44.081300,-73.844500</item>
+        <item>Cliff,44,3960,44.103100,-73.975100</item>
+        <item>Nye,45,3895,44.187200,-74.023840</item>
+        <item>Couchsachraga,46,3820,44.095500,-74.160300</item>
+    </string-array>
+</resources>

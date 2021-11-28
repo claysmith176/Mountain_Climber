@@ -4,6 +4,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.rowland.trecktraker.AtSummitData">
+    android:layout_marginTop="20px"
+    tools:context="org.rowland.mountainClimber.HikeTracker">
 
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="372dp"
+        android:layout_height="350dp"
+        tools:context=".MapsActivity"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteY="582dp" />
+
+
+    <TextView
+        android:id="@+id/averageSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_margin="50dp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="353dp"
+        app:layout_constraintTop_toBottomOf="@+id/map"/>
+
+    <TextView
+        android:id="@+id/totalDistanceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/map"
+        android:layout_margin="50dp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="353dp" />
 </android.support.constraint.ConstraintLayout>

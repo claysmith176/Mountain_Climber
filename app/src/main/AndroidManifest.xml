@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:uses-feature="http://schemas.android.com/apk/res-auto"
-    package="org.rowland.trecktraker">
+    package="org.rowland.mountainClimber">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -11,24 +11,31 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-feature android:name="android.hardware.camera2.full" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--<uses-feature android:name="android.hardware.camera2.full" />-->
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"
+        android:windowSoftInputMode="adjustPan"/>
 
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/mountain_pic_2"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/mountain_pic_2"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MountainList">
+
+        <activity android:name="org.rowland.mountainClimber.MountainList">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Details" />
+        <activity android:name="org.rowland.mountainClimber.Details" />
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -46,8 +53,10 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBcgzGSCy8Z9OR-hN-yF5apz-UGByTJOLU" />
 
-        <activity android:name=".HikeTracker" />
-        <activity android:name=".AtSummitData"></activity>
+        <activity android:name="org.rowland.mountainClimber.HikeTracker" />
+        <activity android:name="org.rowland.mountainClimber.HikeOverview"></activity>
+
+        <service android:name=".LocationUpdatePendingIntent"/>
     </application>
 
 </manifest>

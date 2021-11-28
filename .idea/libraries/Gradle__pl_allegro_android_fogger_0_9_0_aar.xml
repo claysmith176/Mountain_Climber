@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: pl.allegro.android:fogger:0.9.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/afab64b6581b46f2032ed605c4b30eb3/fogger-0.9.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/afab64b6581b46f2032ed605c4b30eb3/fogger-0.9.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/pl.allegro.android/fogger/0.9.0/b6eddc6bd21f9d5e6402adeb4d6a3600ebb94083/fogger-0.9.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/pl.allegro.android/fogger/0.9.0/939d35e4f9269c7587ad22040b41234b0e77d9cb/fogger-0.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
